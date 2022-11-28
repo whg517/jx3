@@ -17,15 +17,15 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
-  - key: staging
+  - key: test
   - key: production
   ingress:
-    domain: ""
+    domain: "jx.whg.cn"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
       email: ""
-      enabled: false
+      enabled: true
       production: false
   repository: bucketrepo
   secretStorage: local

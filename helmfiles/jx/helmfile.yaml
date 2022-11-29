@@ -8,6 +8,8 @@ repositories:
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
 releases:
+- chart: jxgh/lighthouse-webui-plugin
+  name: lighthouse-webui-pluginjx
 - chart: jxgh/jxboot-helmfile-resources
   version: 1.1.251
   name: jxboot-helmfile-resources
